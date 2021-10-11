@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import sortUnitsByHealth from '../app';
 
 test('expect .not.toBe ', () => {
@@ -33,4 +34,3 @@ test('sort 5', () => {
   const result = sortUnitsByHealth(units);
   expect(result).toEqual(unitsSorted);
 });
-
